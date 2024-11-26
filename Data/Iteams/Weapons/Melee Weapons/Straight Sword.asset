@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e178c70aee7a16a48b463a218e3d55a8, type: 3}
+  m_Name: Straight Sword
+  m_EditorClassIdentifier: 
+  itemName: Straight Sword
+  itemIcon: {fileID: 21300000, guid: ce8f49ef4da572c4b856b45bc3844f61, type: 3}
+  itemDescription: A straight sword.
+  itemID: 1
+  weaponModel: {fileID: 7624069379573566649, guid: 6453cea6596db3147bc94ea91b127dfe,
+    type: 3}
+  strengthREQ: 10
+  dexREQ: 10
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 100
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightningDamage: 0
+  poiseDamage: 25
+  light_Attack_01_Modifier: 1
+  light_Attack_02_Modifier: 1.2
+  heavy_Attack_01_Modifier: 1.4
+  heavy_Attack_02_Modifier: 1.6
+  charge_Attack_01_Modifier: 2
+  charge_Attack_02_Modifier: 2.2
+  baseStaminaCost: 20
+  lightAttackStaminaCostMultiplier: 0.9
+  ob_LMB_Action: {fileID: 11400000, guid: 690f9e49fe0b1484da23c0bead2906be, type: 2}
+  ob_RMB_Action: {fileID: 11400000, guid: d5b690a3606908245a431a4689685f12, type: 2}
+  whooshes:
+  - {fileID: 8300000, guid: f716339287c3185418a8bb424040195c, type: 3}
+  - {fileID: 8300000, guid: 8906612d4e320c248a8c5fb885dcac70, type: 3}
+  - {fileID: 8300000, guid: 5e5997c0ccd712d4f9cb2ab702f8f913, type: 3}
+  - {fileID: 8300000, guid: c557e1669c878b049b6a8dda3659a909, type: 3}
+  - {fileID: 8300000, guid: d0f310465eb7cfb40878b5cb086f953f, type: 3}

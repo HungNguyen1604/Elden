@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f01c42189fab4946ac648d26e3de1c2, type: 3}
+  m_Name: Combat Stance State
+  m_EditorClassIdentifier: 
+  aiCharacterAttacks:
+  - {fileID: 11400000, guid: ef37fd60b0ed50e4abbf25bfef4c487c, type: 2}
+  - {fileID: 11400000, guid: cff9294803e777547a95d6952e10e5ad, type: 2}
+  canPerformCombo: 0
+  chanceToPerformCombo: 25
+  hasRolledForComboChance: 0
+  maxiumEngagementDistance: 5
